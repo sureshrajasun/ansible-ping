@@ -1,0 +1,5 @@
+---
+- name: This play book is for pinging
+  hosts: awshost
+  tasks:
+   - ping:
