@@ -1,0 +1,5 @@
+---
+- name: This play book is for pinging
+  hosts: ansible_host
+  tasks:
+   - ping:
